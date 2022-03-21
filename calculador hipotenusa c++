@@ -1,0 +1,24 @@
+#include <iostream>
+#include <math.h>
+
+ using namespace std;
+ 
+int main()
+{
+    double cat1, cat2, total, hip;
+    
+    cout<<"insira cateto 1: ";
+    cin>>(cat1);
+    cout<<"insira cateto 2: ";
+    cin>>(cat2);
+    
+    total = cat1 * cat1 + cat2 * cat2 ;
+    
+    hip = sqrt(total);
+    
+    cout<<"hipotenusa = "<< hip ;
+    
+    
+
+    return 0;
+}
